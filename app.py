@@ -53,8 +53,8 @@ with col2:
     fig_line = px.line(df_filtrado, x='MES', y='PRODUCTIVIDAD', markers=True, template="plotly_white")
     st.plotly_chart(fig_line, use_container_width=True)
 
-**Para ejecutarlo:**
-1. Guarda el código en un archivo llamado `tablero.py`.
-2. En tu terminal escribe: `streamlit run tablero.py`.
+#**Para ejecutarlo:**
+#1. Guarda el código en un archivo llamado `tablero.py`.
+#2. En tu terminal escribe: `streamlit run tablero.py`.
 
 #¿Te gustaría que ajustemos algún gráfico específico basado en las columnas reales de tu Excel?
