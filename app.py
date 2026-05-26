@@ -57,4 +57,4 @@ with col2:
 1. Guarda el código en un archivo llamado `tablero.py`.
 2. En tu terminal escribe: `streamlit run tablero.py`.
 
-¿Te gustaría que ajustemos algún gráfico específico basado en las columnas reales de tu Excel?
+#¿Te gustaría que ajustemos algún gráfico específico basado en las columnas reales de tu Excel?
