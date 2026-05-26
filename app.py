@@ -48,7 +48,7 @@ st.markdown("""
 
 # 3. ENLACE DE CONEXIÓN A GOOGLE SHEETS
 # Reemplaza TODO este texto de ejemplo por el link que obtuviste en "Publicar en la web" -> formato .csv
-URL_PUBLICACION_WEB = "AQUÍ_PEGA_TU_ENLACE_DE_PUBLICACION_WEB_DE_GOOGLE_SHEETS"
+URL_PUBLICACION_WEB = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTF5HvCvAC9LgTD_uj5nRugoRBX_oc3bo61IcT_uEygW2KPWNMVSahM3TJEvdOHBoFnap1rA0IAtspT/pub?gid=0&single=true&output=csv"
 
 # Función con caché para cargar los datos de forma rápida
 @st.cache_data(ttl=600)  # Se actualiza automáticamente cada 10 minutos
