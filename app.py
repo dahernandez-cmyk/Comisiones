@@ -45,7 +45,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # 3. ENLACE REAL DE TU GOOGLE SHEETS
-URL_PUBLICACION_WEB = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTF5HvCvAC9LgTD_uj5nRugoRBX_oc3bo61IcT_uEygW2KPWNMVSahM3TJEvdOHBoFnap1rA0IAtspT/pub?gid=0&single=true&output=csv"
+URL_PUBLICACION_WEB = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTF5HvCvAC9LgTD_uj5nRugoRBX_oc3bo61IcT_uEygW2KPWNMVSahM3TJEvdOHBoFnap1rA0IAtspT/pub?output=csv"
 
 # Función con caché para cargar los datos de forma rápida
 @st.cache_data(ttl=600)  # Se actualiza automáticamente cada 10 minutos
